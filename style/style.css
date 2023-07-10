@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
 /* Nav realated style */
+
 .nav-container{
   display: flex;
   justify-content: space-around;
@@ -33,7 +35,9 @@
   font-style: italic;
   font-size: 1.5rem;
 }
+
 /* Hero section related style */
+
 .hero-cointainer{
   background-image: url("/asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
   background-blend-mode: overlay;
@@ -74,12 +78,17 @@ span {
   background-color: red;
   font-size: 16px;
   padding: 15px 35px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .btn-second {
   border: none;
   background-color: white;
   font-size: 16px;
   padding: 15px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: red;
 }
 .btn-primary a {
   text-decoration: none;
@@ -89,10 +98,125 @@ span {
   text-decoration: none;
   color: red;
 }
+
 /* Service Section Related Style */
-.service-list {
+
+.Service {
+  display: flex;
   background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0,0.9),rgb(0, 0, 0,0.9));
   height: 100vh;
-  width: 100%;
   background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+}
+.title2{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  display: block;
+}
+.service-paragraph{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+.btn-service {
+  display: block;
+  margin-bottom: 15px;
+}
+.service-list {
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+}
+.author-section{
+  display: flex;
+  align-items: center;
+}
+
+.author-sec1 {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.author-img{
+  height: 100px;
+  width: 100px;
+  background-image: url("/asset/image/author.jpg");
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+
+.author-sec2{
+  align-items: center;
+  display: flex;
+  border-left: 2px solid red;
+  padding: 15px;
+}
+.service-cards{
+  display: flex;
+}
+
+.icon {
+  height: 90px;
+  margin-bottom: 20px;
+}
+.box {
+  color: black;
+  padding: 50px;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin: 15px;
+  font-size: 15px;
+}
+.appointment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  height: 200px;
+  width: 75%;
+  margin: auto;
+  border-radius: 15px;
+  padding: -15px;
+}
+.appointment-left{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-right: 2px solid white;
+}
+.appoinment-right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.app-span{
+  color: white;
+  font-size: 2rem;
+}
+h5 {
+  color: white;
+  font-size: small;
+}
+.appointment-para{
+  color: white;
 }
